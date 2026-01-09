@@ -1,0 +1,7 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My notes'
+theme = 'hugo-theme-relearn'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
