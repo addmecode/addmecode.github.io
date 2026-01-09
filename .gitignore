@@ -1,0 +1,9 @@
+# Hugo default output directory
+public/
+
+# Hugo build lock file
+.hugo_build.lock
+
+# Temporary folders
+tmp/
+resources/
