@@ -6,6 +6,7 @@ enableGitInfo = true
 [params]
   collapsibleMenu = true
   alwaysopen = true
+  themeVariant = ['zen-dark', 'zen-light']
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
