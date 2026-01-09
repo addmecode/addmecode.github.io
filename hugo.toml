@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My notes'
 theme = 'hugo-theme-relearn'
+enableGitInfo = true
 [params]
   collapsibleMenu = true
   alwaysopen = true
