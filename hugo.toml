@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My notes'
+title = 'BC & NAV notes'
 theme = 'hugo-theme-relearn'
 enableGitInfo = true
 [params]
