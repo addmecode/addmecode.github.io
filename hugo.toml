@@ -7,6 +7,7 @@ enableGitInfo = true
   collapsibleMenu = true
   alwaysopen = true
   themeVariant = ['zen-dark', 'zen-light']
+  externalLinkTarget = '_blank'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
