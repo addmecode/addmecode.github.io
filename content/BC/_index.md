@@ -4,4 +4,6 @@ type = "chapter"
 weight = 1
 +++
 
-All notes related to Business Central
+## Business Central Notes
+
+All notes related to Business Central.
