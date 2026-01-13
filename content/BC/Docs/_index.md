@@ -5,6 +5,9 @@ title = 'Docs'
 
 ## Useful Links
 
+### Blogs
+- [stefanmaron](https://stefanmaron.com/)
+
 ### Blobs
 - [Blob Guide In Business Central In 2024](https://businesscentralgeek.com/blob-guide-in-business-central-in-2024)
 
