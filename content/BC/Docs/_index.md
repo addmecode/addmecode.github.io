@@ -8,6 +8,9 @@ title = 'Docs'
 ### Blogs
 - [stefanmaron](https://stefanmaron.com/)
 
+### Forums
+- [Dynamics 365 Community](https://community.dynamics.com/forums/thread/)
+
 ### Blobs
 - [Blob Guide In Business Central In 2024](https://businesscentralgeek.com/blob-guide-in-business-central-in-2024)
 
