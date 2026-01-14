@@ -36,3 +36,7 @@ title = 'Docs'
 - BC Apps: [GH microsoft/BCApps](https://github.com/microsoft/BCApps)
 - Localizations: [GH microsoft/ALAppExtensions](https://github.com/microsoft/ALAppExtensions/tree/main)
 - Contributing to MS Repos: [YT BC TechDays 2023](https://www.youtube.com/watch?v=a1p8fTFPVwI&t=3310s)
+
+### Hugo server & GitHub pages
+- [host-on-github-pages](https://gohugo.io/host-and-deploy/host-on-github-pages/)
+- [hugo-theme-relearn](https://mcshelby.github.io/hugo-theme-relearn/index.html)
