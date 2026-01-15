@@ -13,10 +13,16 @@ weight = 10
 - [yzhums](https://yzhums.com/)
 - [fbakkensen](https://fbakkensen.github.io/)
 - [waldo](https://waldo.be/)
+- [demiliani](https://demiliani.com/)
+- [vld](https://vld-bc.com/)
+- [fredborg](https://fredborg.org/)
 
 ### Forums
 - [Dynamics 365 Community](https://community.dynamics.com/forums/thread/)
 - [mibuso](https://mibuso.com/)
+
+### YouTube
+- [dennisfredborg](https://www.youtube.com/@dennisfredborg/videos)
 
 ### Blobs
 - [Blob Guide In Business Central In 2024](https://businesscentralgeek.com/blob-guide-in-business-central-in-2024)
