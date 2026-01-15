@@ -7,6 +7,9 @@ title = 'Docs'
 
 ### Blogs
 - [stefanmaron](https://stefanmaron.com/)
+- [bcinternals](https://bcinternals.com/)
+- [businesscentralgeek](https://businesscentralgeek.com/article-list)
+- [yzhums](https://yzhums.com/)
 
 ### Forums
 - [Dynamics 365 Community](https://community.dynamics.com/forums/thread/)
