@@ -10,9 +10,12 @@ title = 'Docs'
 - [bcinternals](https://bcinternals.com/)
 - [businesscentralgeek](https://businesscentralgeek.com/article-list)
 - [yzhums](https://yzhums.com/)
+- [fbakkensen](https://fbakkensen.github.io/)
+- [waldo](https://waldo.be/)
 
 ### Forums
 - [Dynamics 365 Community](https://community.dynamics.com/forums/thread/)
+- [mibuso](https://mibuso.com/)
 
 ### Blobs
 - [Blob Guide In Business Central In 2024](https://businesscentralgeek.com/blob-guide-in-business-central-in-2024)
