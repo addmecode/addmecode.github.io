@@ -52,6 +52,9 @@ weight = 10
 - Localizations: [GH microsoft/ALAppExtensions](https://github.com/microsoft/ALAppExtensions/tree/main)
 - Contributing to MS Repos: [YT BC TechDays 2023](https://www.youtube.com/watch?v=a1p8fTFPVwI&t=3310s)
 
+### Code Analyzer
+- [anzwdev/custom-al-code-analyzers](https://anzwdev.wordpress.com/2019/11/09/custom-al-code-analyzers/)
+
 ### Hugo server & GitHub pages
 - [host-on-github-pages](https://gohugo.io/host-and-deploy/host-on-github-pages/)
 - [hugo-theme-relearn](https://mcshelby.github.io/hugo-theme-relearn/index.html)

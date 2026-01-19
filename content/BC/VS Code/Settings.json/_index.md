@@ -12,8 +12,11 @@ It describes what action will be run when `AZ AL Dev Tools: Run Code Cleanup` is
 ![AZ AL Dev Tools/AL Code Outline](/images/az-al-dev-tools-al-code-oultine.png)
 
 
-More details can be found here: [al-code-outline](https://github.com/anzwdev/al-code-outline) 
-\
+More details can be found here: 
+- [al-code-outline](https://github.com/anzwdev/al-code-outline) 
+- [az-al-dev-tools-update](https://anzwdev.wordpress.com/2022/01/22/az-al-dev-tools-update/)
+
+
 The available actions:
 ```json
 {
