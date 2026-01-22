@@ -21,6 +21,7 @@ weight = 10
 ### Forums
 - [Dynamics 365 Community](https://community.dynamics.com/forums/thread/)
 - [mibuso](https://mibuso.com/)
+- [GitHub](https://github.com/microsoft/al/issues)
 
 ### YouTube
 - [dennisfredborg](https://www.youtube.com/@dennisfredborg)
@@ -47,7 +48,13 @@ weight = 10
 ### AI Ranking
 - [CentralGauge - Benchmark Results](https://ai.sshadows.dk/)
 
-### Microsoft Repositories
+### Repos to learn
+- [BCTech](https://github.com/microsoft/BCTech)
+- [BC-Environment-Interfaces](https://github.com/finnpedersenkazes/BC-Environment-Interfaces)
+- [BC-Standard-Library](https://github.com/finnpedersenkazes/BC-Standard-Library)
+- [bcsamples](https://github.com/topics/bcsamples)
+
+### MS Repos
 - BC Apps: [GH microsoft/BCApps](https://github.com/microsoft/BCApps)
 - Localizations: [GH microsoft/ALAppExtensions](https://github.com/microsoft/ALAppExtensions/tree/main)
 - Contributing to MS Repos: [YT BC TechDays 2023](https://www.youtube.com/watch?v=a1p8fTFPVwI&t=3310s)
@@ -58,3 +65,9 @@ weight = 10
 ### Hugo server & GitHub pages
 - [host-on-github-pages](https://gohugo.io/host-and-deploy/host-on-github-pages/)
 - [hugo-theme-relearn](https://mcshelby.github.io/hugo-theme-relearn/index.html)
+
+### Other
+- [All aka ms for BC](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/readiness/readiness-bcall)
+- [BcAll](https://aka.ms/bcall)
+- [BcOfficeHours](https://aka.ms/BCOfficeHours)
+- [BcYammer](https://aka.ms/bcyammer)
