@@ -11,6 +11,9 @@ Provided by `AZ AL Dev Tools/AL Code Outline` extension.
 It describes what action will be run when `AZ AL Dev Tools: Run Code Cleanup` is invoked:
 ![AZ AL Dev Tools/AL Code Outline](/images/az-al-dev-tools-al-code-oultine.png)
 
+Some of the actions need additional parameters, you can specify them after you run the code cleanup.
+\
+If you don't want to select them each time, you can set the default values in the settings.json, i.e. `alOutline.defaultRemoveEmptyTriggersSettings`
 
 More details can be found here: 
 - [al-code-outline](https://github.com/anzwdev/al-code-outline) 
@@ -20,6 +23,21 @@ More details can be found here:
 The available actions:
 ```json
 {
+"alOutline.defaultDataClassification": "CustomerContent",
+"alOutline.defaultRemoveEmptyTriggersSettings": {
+    "removeTriggers": true,
+    "removeSubscribers": true,
+    "ignoreComments": true
+},
+"alOutline.reuseToolTipsFromDependencies": [
+    "*"
+],
+"alOutline.defaultRemoveUnusedVariablesSettings": {
+    "removeGlobalVariables": true,
+    "removeProtectedGlobalVariables": true,
+    "removeLocalVariables": true,
+    "removeLocalMethodParameters": true
+},
 "alOutline.codeCleanupActions": [
         "AddApplicationAreas",
         "AddDataClassifications",
@@ -81,6 +99,21 @@ More details can be found here: [crs-al-language-extension](https://github.com/w
     "CRS.ObjectNamePrefix": "AMC ",
     "CRS.RemovePrefixFromFilename": false,
     "todo-tree.regex.regexCaseSensitive": false,
+    "alOutline.defaultDataClassification": "CustomerContent",
+    "alOutline.defaultRemoveEmptyTriggersSettings": {
+        "removeTriggers": true,
+        "removeSubscribers": true,
+        "ignoreComments": true
+    },
+    "alOutline.reuseToolTipsFromDependencies": [
+        "*"
+    ],
+    "alOutline.defaultRemoveUnusedVariablesSettings": {
+        "removeGlobalVariables": true,
+        "removeProtectedGlobalVariables": true,
+        "removeLocalVariables": true,
+        "removeLocalMethodParameters": true
+    },
     "alOutline.codeCleanupActions": [
         "AddApplicationAreas",
         "AddDataClassifications",
