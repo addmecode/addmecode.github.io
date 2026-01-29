@@ -70,4 +70,5 @@ weight = 10
 - [All aka ms for BC](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/readiness/readiness-bcall)
 - [BcAll](https://aka.ms/bcall)
 - [BcOfficeHours](https://aka.ms/BCOfficeHours)
+- [BCOfficeHoursRecordings](https://aka.ms/BCOfficeHoursRecordings)
 - [BcYammer](https://aka.ms/bcyammer)
