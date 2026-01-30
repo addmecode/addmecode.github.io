@@ -26,6 +26,7 @@ weight = 10
 ### YouTube
 - [dennisfredborg](https://www.youtube.com/@dennisfredborg)
 - [Hougaard](https://www.youtube.com/@Hougaard)
+- [StefanMaron](https://www.youtube.com/@StefanMaron)
 
 ### Blobs
 - [Blob Guide In Business Central In 2024](https://businesscentralgeek.com/blob-guide-in-business-central-in-2024)
