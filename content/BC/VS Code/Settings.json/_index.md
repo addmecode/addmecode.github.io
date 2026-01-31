@@ -5,6 +5,16 @@ title = 'Settings.json'
 
 Useful properties for the .vscode/settings.json
 
+## Code Analyzers
+`al.codeAnalyzers` enables specific code analyzers that validate your code against best practices.
+\
+More info - [Code analysis tool](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-using-code-analysis-tool)
+\
+\
+There is also a `LinterCop` extension that provides additional code analyzer - `${analyzerFolder}BusinessCentral.LinterCop.dll`
+\
+Instruction how to enable it, is in the extension documentation.
+
 ## alOutline.codeCleanupActions
 Provided by `AZ AL Dev Tools/AL Code Outline` extension.
 \
