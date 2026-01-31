@@ -18,6 +18,10 @@ weight = 10
 - [fredborg](https://fredborg.org/)
 - [anzwdev](https://anzwdev.wordpress.com/)
 
+### GitHub
+- [stefanmaron](https://github.com/StefanMaron/)
+
+
 ### Forums
 - [Dynamics 365 Community](https://community.dynamics.com/forums/thread/)
 - [mibuso](https://mibuso.com/)
