@@ -15,6 +15,14 @@ There is also a `LinterCop` extension that provides additional code analyzer - `
 \
 Instruction how to enable it, is in the extension documentation.
 
+## Custom Rule Set
+`al.ruleSetPath` specifies path to the json file with your custom ruleset i.e. `./custom.ruleset.json`
+`al.enableExternalRulesets` enables external rule sets.
+\
+More info about the custom rule set - [Rule Set](../rule-set/)
+
+
+
 ## alOutline.codeCleanupActions
 Provided by `AZ AL Dev Tools/AL Code Outline` extension.
 \
