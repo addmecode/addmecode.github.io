@@ -13,7 +13,11 @@ It describes what action will be run when `AZ AL Dev Tools: Run Code Cleanup` is
 
 Some of the actions need additional parameters, you can specify them after you run the code cleanup.
 \
-If you don't want to select them each time, you can set the default values in the settings.json, i.e. `alOutline.defaultRemoveEmptyTriggersSettings`
+If you don't want to select them each time, you can set the default values in the settings.json, i.e. 
+- `alOutline.defaultDataClassification`
+- `alOutline.defaultRemoveEmptyTriggersSettings`
+- `alOutline.reuseToolTipsFromDependencies`
+- `alOutline.defaultRemoveUnusedVariablesSettings`
 
 More details can be found here: 
 - [al-code-outline](https://github.com/anzwdev/al-code-outline) 
