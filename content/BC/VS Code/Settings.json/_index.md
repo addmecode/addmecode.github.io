@@ -5,6 +5,9 @@ title = 'Settings.json'
 
 Useful properties for the .vscode/settings.json
 
+## My settings.json
+My settings.json is available here: [al-settings](https://github.com/addmecode/al-settings)
+
 ## Code Analyzers
 `al.codeAnalyzers` enables specific code analyzers that validate your code against best practices.
 \
@@ -110,72 +113,3 @@ Provided by `waldo's CRS AL Language Extension`.
 The extension provides a lot of useful properties, including object and file name management.
 \
 More details can be found here: [crs-al-language-extension](https://github.com/waldo1001/crs-al-language-extension) 
-
-## My settings.json
-```json
-{
-    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-    "CRS.OnSaveAlFileAction": "Rename",
-    "CRS.ObjectNamePrefix": "AMC ",
-    "CRS.RemovePrefixFromFilename": false,
-    "todo-tree.regex.regexCaseSensitive": false,
-    "alOutline.defaultDataClassification": "CustomerContent",
-    "alOutline.defaultRemoveEmptyTriggersSettings": {
-        "removeTriggers": true,
-        "removeSubscribers": true,
-        "ignoreComments": true
-    },
-    "alOutline.reuseToolTipsFromDependencies": [
-        "*"
-    ],
-    "alOutline.defaultRemoveUnusedVariablesSettings": {
-        "removeGlobalVariables": true,
-        "removeProtectedGlobalVariables": true,
-        "removeLocalVariables": true,
-        "removeLocalMethodParameters": true
-    },
-    "alOutline.codeCleanupActions": [
-        "AddApplicationAreas",
-        "AddDataClassifications",
-        "AddEnumValuesCaptions",
-        "AddMissingParentheses",
-        "AddObjectCaptions",
-        // "AddPageFieldCaptions",
-        "AddTableFieldCaptions",
-        "AddToolTips",
-        "CollapseEmptyBrackets",
-        "ConvertObjectIdsToNames",
-        "FixIdentifiersCase",
-        "FixKeywordsCase",
-        "FormatDocument",
-        "LockRemovedFieldCaptions",
-        "MakeFlowFieldsReadOnly",
-        "OneStatementPerLine",
-        "RefreshToolTips",
-        "RemoveBeginEnd",
-        "RemoveEmptyLines",
-        "RemoveEmptySections",
-        "RemoveEmptyTriggers",
-        "RemoveProceduresSemicolon",
-        "RemoveRedundantAppAreas",
-        "RemoveRedundantDataClassification",
-        "RemoveStrSubstNoFromError",
-        "RemoveUnusedUsings",
-        "RemoveUnusedVariables",
-        "RemoveWithStatements",
-        "SortCustomizations",
-        "SortPermissions",
-        "SortPermissionSetList",
-        // "SortProcedures",
-        "SortProperties",
-        "SortReportColumns",
-        "SortTableFields",
-        "SortTriggers",
-        "SortUsings",
-        "SortVariables",
-        "TrimTrailingWhitespace"
-    ]
-}
-```
