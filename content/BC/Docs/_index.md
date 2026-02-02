@@ -63,6 +63,7 @@ weight = 10
 - BC Apps: [GH microsoft/BCApps](https://github.com/microsoft/BCApps)
 - Localizations: [GH microsoft/ALAppExtensions](https://github.com/microsoft/ALAppExtensions/tree/main)
 - Contributing to MS Repos: [YT BC TechDays 2023](https://www.youtube.com/watch?v=a1p8fTFPVwI&t=3310s)
+- [AL-Go](https://github.com/microsoft/AL-Go)
 
 ### Code Analyzer
 - [anzwdev/custom-al-code-analyzers](https://anzwdev.wordpress.com/2019/11/09/custom-al-code-analyzers/)
