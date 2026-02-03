@@ -18,6 +18,17 @@ There is also a `LinterCop` extension that provides additional code analyzer - `
 \
 Instruction how to enable it, is in the extension documentation.
 
+> [!WARNING]
+> If you enable AppSourceCop, you need to create an AppSourceCop.json file in the project root with your appsource prefix, i.e.
+> ```json
+> {
+>     "mandatoryPrefix": "AMC"
+> }
+> ```
+> Otherwise when you build your app, you will receive this error: 
+> \
+> "error AS0054: The AppSourceCop configuration must specify one of the following properties: 'mandatorySuffix', 'mandatoryPrefix', or 'mandatoryAffixes'"
+
 ## Custom Rule Set
 `al.ruleSetPath` specifies path to the json file with your custom ruleset i.e. `./custom.ruleset.json`
 `al.enableExternalRulesets` enables external rule sets.
