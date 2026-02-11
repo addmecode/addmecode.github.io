@@ -25,24 +25,33 @@ Here you:
 
 ## Tips
 - You can control which code analyzer the workflow uses by setting them in the settings.json: `enableCodeCop`, `enableUICop`, `customCodeCops`
-- You can specify your own ruleset using `rulesetFile` and `enableExternalRulesets`
+- You can specify your own ruleset using `rulesetFile` and `enableExternalRulesets`. The rulset file must be in the project. 
 
-
-Example settings.json
+## How to use external ruleset
+If you want to use external ruleset file, i.e. using link to file on github, you need to create a local ruleset file with the reference to the external one. I.e. create `algo.ruleset.json` inside .AL-Go directory:
 ```json
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.2/.Modules/settings.schema.json",
-  "country": "us",
-  "appFolders": [],
-  "testFolders": [],
-  "bcptTestFolders": [],
-  "enableCodeCop": true,
-  "enableUICop": true,
-  "customCodeCops": [
-    "${analyzerFolder}BusinessCentral.LinterCop.dll"
-  ],
-  "rulesetFile": "https://raw.githubusercontent.com/addmecode/al-settings/refs/heads/main/custom.ruleset.json",
+    "name": "Addmecode ruleset",
+    "description": "Custom ruleset from Addmecode",
+    "includedRuleSets": [
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/addmecode/al-ruleset/refs/heads/main/custom.ruleset.json"
+        }
+    ],
+    "rules": []
+}
+```
+
+Add the following to the `settings.json` from the .AL-Go directory
+```json
+{
+  "rulesetFile": ".AL-Go/algo.ruleset.json",
   "enableExternalRulesets": true
 }
 ```
+
+
+## Samples 
+Example settings and ruleset files can be found here: [al-settings](https://github.com/addmecode/al-settings)
 
