@@ -27,7 +27,7 @@ Here you:
 - You can control which code analyzer the workflow uses by setting them in the settings.json: `enableCodeCop`, `enableUICop`, `customCodeCops`
 - You can specify your own ruleset using `rulesetFile` and `enableExternalRulesets`. The rulset file must be in the project. 
 
-## How to use external ruleset
+## External ruleset
 If you want to use external ruleset file, i.e. using link to file on github, you need to create a local ruleset file with the reference to the external one. I.e. create `algo.ruleset.json` inside .AL-Go directory:
 ```json
 {
@@ -51,6 +51,21 @@ Add the following to the `settings.json` from the .AL-Go directory
 }
 ```
 
+## AlDoc
+AlDoc is a tool that creates a static documentation website of your AL project.
+\
+It is possible to use AlDoc in the template - all is described here: [AL-Go AlDoc](https://github.com/microsoft/AL-Go/blob/main/Workshop/ReferenceDoc.md)
+\
+In short:
+- you can create AlDoc and deploy it directly to github pages or only create the artifact that can be hosted elsewhere
+- you can create the AlDoc on demand using `Deploy Reference Documentation` github action or you can configure the repo to create the AlDoc in each build, i.e. by adding the following to the settings.json
+```json
+{
+    "alDoc": {
+        "continuousDeployment": true
+    }
+}
+```
 
 ## Samples 
 Example settings and ruleset files can be found here: [al-settings](https://github.com/addmecode/al-settings)
