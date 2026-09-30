@@ -1,0 +1,22 @@
+{{- $toc := partial "toc-class.html" . }}
+{{- $hasToc := not (eq 0 (int (len (trim ($toc | plainify) "\n\r\t ")))) }}
+<div class="explorer-article-layout">
+  <article class="chapter narrow">
+    <header class="headline">
+      {{- partial "content-header.html" . }}
+    </header>
+  {{ partial "heading-pre.html" . }}{{ with .Params.Weight }}<div class="article-subheading">{{ T "Chapter" . }}</div>{{ end }}
+  {{ partial "heading.html" . }}{{ partial "heading-post.html" . }}
+
+  {{ partial "article-content.html" . }}
+    <footer class="footline">
+      {{- partial "content-footer.html" . }}
+    </footer>
+  </article>
+  {{- if and $hasToc (not (.Param "disableToc")) }}
+  <aside class="explorer-outline" aria-label="Document outline">
+    <p class="explorer-outline-title">Outline</p>
+    {{- $toc }}
+  </aside>
+  {{- end }}
+</div>
