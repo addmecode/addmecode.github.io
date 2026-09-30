@@ -1,0 +1,11 @@
+{{- if strings.Contains .RawContent "```al" }}
+  {{- $assetBusting := partialCached "assetbusting.gotmpl" site.Home }}
+  {{- range slice "/js/highlightjs/core.min.js" "/js/highlightjs/al.js" }}
+    {{- with resources.Get . }}
+      {{- $url := .RelPermalink }}
+    {{- end }}
+  {{- end }}
+  {{- with resources.Get "/js/al-highlighting.js" }}
+<script type="module" src="{{ .RelPermalink }}{{ $assetBusting }}"></script>
+  {{- end }}
+{{- end }}
